@@ -310,7 +310,7 @@ class _OverleafPainter extends CustomPainter {
     final linePaint = Paint()
       ..color = Colors.white
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 0;
+      ..strokeWidth = 10;
 
     canvas
       ..drawPath(path, fillPaint)
