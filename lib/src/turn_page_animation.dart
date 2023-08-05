@@ -306,15 +306,15 @@ class _OverleafPainter extends CustomPainter {
     final fillPaint = Paint()
       ..color = color
       ..style = PaintingStyle.fill;
-
+/*
     final linePaint = Paint()
       ..color = Colors.white
       ..style = PaintingStyle.stroke
       ..strokeWidth = 10;
-
+*/
     canvas
-      ..drawPath(path, fillPaint)
-      ..drawPath(path, linePaint);
+      ..drawPath(path, fillPaint);
+      //..drawPath(path, linePaint);
   }
 
   @override
