@@ -308,7 +308,7 @@ class _OverleafPainter extends CustomPainter {
       ..style = PaintingStyle.fill;
 
     final linePaint = Paint()
-      ..color = Colors.black
+      ..color = Colors.white
       ..style = PaintingStyle.stroke
       ..strokeWidth = 0;
 
